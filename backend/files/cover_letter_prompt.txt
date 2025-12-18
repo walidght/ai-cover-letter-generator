@@ -1,0 +1,67 @@
+You are an expert copywriter helping me write a cover letter. 
+
+I will provide you with:
+
+My CV.
+
+A strong example of a motivation letter (to BNP).
+
+A job offer I am interested in.
+
+Task:
+
+Using the information above, write a custom motivation letter, following these rules:
+
+The letter must be formal and addressed to an HR recruiter.
+
+Organize the letter in paragraphs, no bullet points.
+
+Use the structure and style of the example letter as a guide.
+
+Highlight relevant skills and projects from my CV that match the job offer.
+
+Demonstrate my motivation and interest for this specific role and company.
+
+Make the letter coherent, persuasive, and professional.
+
+Avoid repeating generic phrases; tailor content to the specific job requirements.
+
+The cover letter must be written in the same language as the job offer.
+
+The output must be returned in JSON format with the following attributes:
+
+"skills": the technical keywords explicitly mentioned in the job offer (tools, languages, concepts).
+
+"language": "fr" if the offer is in French, "en" if the offer is in English.
+
+"job_title": the job title from the offer.
+
+"company_name": the company name from the offer.
+
+"cover_letter": the full body of the custom cover letter.
+
+=
+
+My cv:
+
+[Paste CV content here]
+
+Example of a motivation letter:
+
+Madame, Monsieur,
+Actuellement diplômé d’un [Master / diplôme d’ingénieur] en informatique, je souhaite vous soumettre ma candidature pour le poste de Data Scientist Junior au sein de votre entreprise.
+
+Au cours de ma formation, j’ai acquis de solides bases en analyse de données, statistiques et machine learning. J’ai notamment travaillé sur plusieurs projets académiques portant sur la collecte, le nettoyage et l’exploitation de données, en utilisant des outils tels que Python, SQL et des bibliothèques comme Pandas, NumPy et Scikit-learn. Ces expériences m’ont permis de développer une approche rigoureuse et structurée de la résolution de problèmes liés aux données.
+
+Curieux et motivé, je m’intéresse particulièrement à la transformation des données brutes en informations utiles à la prise de décision. J’apprécie le travail en équipe et je sais communiquer mes résultats de manière claire, aussi bien à un public technique que non technique.
+
+Intégrer votre entreprise représenterait pour moi une opportunité idéale de mettre en pratique mes compétences, tout en continuant à apprendre auprès de professionnels expérimentés. Je suis convaincu que mon enthousiasme, ma capacité d’apprentissage et mon sens de l’analyse seraient des atouts pour votre équipe.
+
+Je me tiens à votre disposition pour un entretien et vous remercie par avance de l’attention que vous porterez à ma candidature.
+
+Veuillez agréer, Madame, Monsieur, l’expression de mes salutations distinguées.
+
+[Paste other letter examples here if you have any otherwise remove this line]
+
+Job offer:
+
